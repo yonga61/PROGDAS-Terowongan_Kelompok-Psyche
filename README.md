@@ -1,4 +1,4 @@
-# PROGDAS-Terowongan_Kelompok-Psyche
+# PSYCHE_KOTAK MELALUI TEROWONGAN
 1. Daydiva Chaja Noor Redyoku (Teknik Biomedis) 20/456712/TK/50536  
 2. Talitha Andani (Teknik Biomedis) 20/460162/TK/50751  
 3. Fiorenza Celestyn (Teknologi Informasi) 20/460545/TK/51134  
