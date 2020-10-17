@@ -1,52 +1,19 @@
-# Prerequisites
-*.d
+#include <stdio.h>
 
-# Object files
-*.o
-*.ko
-*.obj
-*.elf
-
-# Linker output
-*.ilk
-*.map
-*.exp
-
-# Precompiled Headers
-*.gch
-*.pch
-
-# Libraries
-*.lib
-*.a
-*.la
-*.lo
-
-# Shared objects (inc. Windows DLLs)
-*.dll
-*.so
-*.so.*
-*.dylib
-
-# Executables
-*.exe
-*.out
-*.app
-*.i*86
-*.x86_64
-*.hex
-
-# Debug files
-*.dSYM/
-*.su
-*.idb
-*.pdb
-
-# Kernel Module Compile Results
-*.mod*
-*.cmd
-.tmp_versions/
-modules.order
-Module.symvers
-Mkfile.old
-dkms.conf
+int main(){
+    
+    int n,i,volume;
+    float x,y,z;
+    
+    printf ("\nMasukkan banyaknya kotak yang akan anda bawa : ");
+    scanf ("%d", &n);
+        for(int i=1;i<=n;i++){
+            printf("\nMasukkan panjang, lebar, dan tinggi dari kotak ke-%d = ",i);
+            scanf("%f %f %f", &x, &y, &z);
+            volume = x*y*z;
+            if (z<=41 && z>=1)
+                printf ("Volume dari kotak anda adalah %d\n",volume);
+            else printf ("Maaf, kotak yang anda bawa melebihi maksimal tinggi yang diperbolehkan (41)\n");
+        }
+        return (0);
+}
